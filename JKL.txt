@@ -1,0 +1,16 @@
+// ConsoleApplication2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+//
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+
+    int a;
+    //std::cout << "Белочек было:\n";
+    cin >> a;
+    //std::cout << "Сколько они нашли орешков:\n";
+    cout << (a / 10) % 10;
+}
+
